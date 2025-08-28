@@ -1,0 +1,36 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+vs/
+*.user
+*.suo
+*.csproj.user
+
+# Logs
+*.log
+*.tlog
+
+# Debug
+*.pdb
+*.cache
+
+# Dependências (se usar packages folder, no Core geralmente não precisa)
+packages/
+
+# Node.js (se tiver front junto)
+node_modules/
+
+# Configurações locais
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# Banco de dados local
+*.mdf
+*.ldf
+*.dbmdl
+
+# Publicação
+publish/

@@ -12,6 +12,5 @@ public class ToDoModel
     [Required]
     [MaxLength(300)]
     public string? Description { get; set; }
-    [Required]
     public DateTime DateTime { get; set; } = DateTime.Now;
 }
